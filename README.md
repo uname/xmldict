@@ -37,3 +37,6 @@ Example
     # Converting dictionary to xml 
     >>> xmldict.dict_to_xml({'root': {'persons': {'person': [{'name': {'last': 'bar', 'first': 'foo'}}, {'name': {'last': 'bar', 'first': 'baz'}}]}}})
     '<root><persons><person><name><last>bar</last><first>foo</first></name></person><person><name><last>bar</last><first>baz</first></name></person></persons></root>'
+
+
+对比了几个XML到python dict的相互转换库，这个是比较快的一个，而且支持双向转换。
